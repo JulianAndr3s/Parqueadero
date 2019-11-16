@@ -26,7 +26,7 @@ public class ParqueaderoServiceImpl implements ParqueaderoService {
 	}
 
 	@Override
-	public List<TipoVehiculo> listarTiposVehiculos() {
+	public List<TipoVehiculo> listarTipoVehiculos() {
 		return tipoVehiculoRepository.findAll();
 	}
 

@@ -8,7 +8,7 @@ import co.edu.uco.parqueadero.entity.Vehiculo;
 public interface ParqueaderoService {
 	
 	List<Vehiculo> listarVehiculos();
-	List<TipoVehiculo> listarTiposVehiculos();
+	List<TipoVehiculo> listarTipoVehiculos();
 	void insertarVehiculo(Vehiculo vehiculo);
 	Vehiculo buscarPorId(Long id);
 	void actualizarVehiculo(Vehiculo vehiculo);
