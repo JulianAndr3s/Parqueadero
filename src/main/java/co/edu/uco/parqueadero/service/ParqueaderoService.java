@@ -1,5 +1,17 @@
 package co.edu.uco.parqueadero.service;
 
-public class ParqueaderoService {
+import java.util.List;
+
+import co.edu.uco.parqueadero.entity.TipoVehiculo;
+import co.edu.uco.parqueadero.entity.Vehiculo;
+
+public interface ParqueaderoService {
+	
+	List<Vehiculo> listarVehiculos();
+	List<TipoVehiculo> listarTiposVehiculos();
+	void insertarVehiculo(Vehiculo vehiculo);
+	Vehiculo buscarPorId(Long id);
+	void actualizarVehiculo(Vehiculo vehiculo);
+	void eliminarVehiculo(Long id);
 
 }
