@@ -51,4 +51,9 @@ public class ParqueaderoServiceImpl implements ParqueaderoService {
 		vehiculoRepository.deleteById(id);
 	}
 
+	@Override
+	public Vehiculo buscarPorPlaca(String placa) {
+		return vehiculoRepository.findByPlaca(placa);
+	}
+
 }

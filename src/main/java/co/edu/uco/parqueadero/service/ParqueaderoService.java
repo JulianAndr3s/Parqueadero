@@ -11,6 +11,7 @@ public interface ParqueaderoService {
 	List<TipoVehiculo> listarTipoVehiculos();
 	void insertarVehiculo(Vehiculo vehiculo);
 	Vehiculo buscarPorId(Long id);
+	Vehiculo buscarPorPlaca(String placa);
 	void actualizarVehiculo(Vehiculo vehiculo);
 	void eliminarVehiculo(Long id);
 

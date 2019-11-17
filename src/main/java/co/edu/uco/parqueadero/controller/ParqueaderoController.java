@@ -47,5 +47,10 @@ public class ParqueaderoController {
 		parqueaderoService.eliminarVehiculo(id);
 	}
 	
+	@GetMapping("/{placa}/buscarplaca")
+	public Vehiculo buscarPorPlaca(@PathVariable String placa) {
+		return parqueaderoService.buscarPorPlaca(placa);
+	}
+	
 	
 }
