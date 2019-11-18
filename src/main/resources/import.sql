@@ -1,6 +1,6 @@
 INSERT INTO public.tipo_vehiculo(id, tipo, cilindraje) VALUES (1, 'Carro', 'Cualquiera');
-INSERT INTO public.tipo_vehiculo(id, tipo, cilindraje) VALUES (2, 'Moto', 'Alto');
-INSERT INTO public.tipo_vehiculo(id, tipo, cilindraje) VALUES (3, 'Moto', 'Bajo');
+INSERT INTO public.tipo_vehiculo(id, tipo, cilindraje) VALUES (2, 'Moto Alto Cilindraje', 'Alto');
+INSERT INTO public.tipo_vehiculo(id, tipo, cilindraje) VALUES (3, 'Moto Bajo Cilindraje', 'Bajo');
 
 
 /*Datos de la tabla ROL*/
